@@ -1,0 +1,557 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400&family=Outfit:wght@400;500;600&family=Yomogi&family=Zen+Kaku+Gothic+New:wght@400;500;600&display=swap");
+*{box-sizing:border-box}body{margin:0;color:#39362f;background:#fff;font-family:"Outfit","Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;font-size:14px;line-height:1.9}a{color:inherit;text-decoration:none}a:hover{opacity:.75}a:focus-visible,summary:focus-visible{outline:3px solid #887556;outline-offset:4px}img{display:block;width:100%;object-fit:cover}p{margin:0 0 16px}header{background:#fff;position:sticky;top:0;z-index:5;border-bottom:1px solid #e3dfd5}.head-inner{max-width:1240px;padding:18px 36px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}.wordmark{font:700 29px Georgia,serif;color:#685642;letter-spacing:-1px}.brand small{display:block;font-size:9px;letter-spacing:.2em;margin-top:5px}nav{display:flex;align-items:center;gap:24px;font-size:12px}nav a{padding:7px 0}nav a[aria-current=page]{border-bottom:1px solid #655b43;font-weight:600}.buy-button,.button{display:inline-flex;align-items:center;justify-content:center;gap:24px;padding:13px 24px;background:#555d47;color:white;font-size:12px;border:1px solid #555d47}.buy-button{padding:9px 20px}nav .buy-button[aria-current=page]{color:#fff}.button.secondary{background:transparent;color:#555d47}.shell{max-width:1160px;padding:0 36px;margin:auto}.home-hero{display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:60px;padding:52px 0}.kicker,.label{font-size:10px;letter-spacing:.2em;color:#786e5c;text-transform:uppercase}h1,h2,h3{font-weight:400}h1{font-family:"Yu Mincho",serif;font-size:42px;line-height:1.7;letter-spacing:.08em;margin:20px 0}h2{font-family:"Yu Mincho",serif;font-size:28px;line-height:1.7;margin:12px 0 26px}h3{font-size:17px;margin:10px 0} .lead{font-size:14px;line-height:2.1;color:#706b60}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.hero-photo{position:relative}.hero-photo img,.hero-photo video{width:100%;aspect-ratio:1.1;object-fit:cover;display:block}.photo-caption{font-size:10px;letter-spacing:.12em;color:#756f61;margin:12px 0 0}.route-section{padding:35px 0 65px;border-top:1px solid #ddd8cb}.route-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.route-card{padding:26px;background:#f0eee6;display:block}.route-card .num{font:italic 20px Georgia,serif;color:#8e947e}.route-card p{font-size:12px;color:#736e63;margin:8px 0 20px}.route-card .go{font-size:12px;display:flex;justify-content:space-between}.home-bottom{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #ddd8cb;padding:30px 0 50px;gap:20px}.home-bottom p{font-size:12px;margin:0}.crumbs{font-size:11px;color:#746d61;padding-top:24px}.crumbs a{text-decoration:underline}.page-heading{padding:30px 0 35px}.page-heading h1{font-size:34px;margin:10px 0 16px}.page-heading p{max-width:700px}.product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.product{position:relative}.product-img{aspect-ratio:1;object-fit:cover}.product-label{font:19px Georgia,serif;margin:22px 0 8px}.product h3{font-size:13px}.product-desc{font-size:12px;color:#71695f}.product-desc br{display:none}.product-badge{position:absolute;left:12px;top:12px;background:#f6f1e5;padding:8px 14px;font-size:10px}.product-link{display:block;border-bottom:1px solid #bbb7a9;padding:15px 0;font-size:12px}.products{padding-bottom:60px}.shop-note{font-size:12px;color:#71695f}.shop-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.shop-card{display:flex;flex-direction:column;border:1px solid #d7d1c4;background:white;padding:30px}.shop-card h2{font-family:Georgia,serif;margin:10px 0 15px}.shop-card p{font-size:12px;color:#71695f}.shop-card .button{margin-top:auto;gap:12px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;border-top:1px solid #ddd8cb;margin:50px 0;padding:30px 0}.steps h3{font-size:14px}.steps p{font-size:12px;color:#71695f}.story{max-width:760px;margin:auto}.story-img{aspect-ratio:16/9;margin-bottom:36px}.story-body{font-family:"Yu Mincho",serif;font-size:15px;line-height:2.2}.story-body p{margin-bottom:24px}.profile-card{padding:30px;background:#f0eee6;text-align:center;margin:40px 0}.profile-img{width:90px;height:90px;border-radius:50%;margin:0 auto 15px}.profile-role,.profile-bio{font-size:12px;color:#71695f}.profile-name{font-size:17px}.mascot{text-align:center;padding:35px 0}.mascot img{width:130px!important;height:130px!important;margin-bottom:20px!important}.mascot h2{font-size:24px}.mascot p{font-size:12px!important}.review-list{display:grid;grid-template-columns:1fr 1fr;gap:24px}.reviews{padding:40px 0 60px;border-top:1px solid #ddd8cb}.review-card{border-bottom:1px solid #ddd8cb;padding:20px 0}.review-stars{font-size:11px;color:#887556}.review-name{font-size:11px;margin-top:10px}.review-body{font-size:12px}.find-us-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding-bottom:60px}.find-us-card{border-top:1px solid #b9b19f;padding:26px 0}.find-us-card p{font-size:12px}.find-us-card .note{font-size:11px}.find-us-card h3{font-family:"Yu Mincho",serif;font-size:22px}.btn{display:inline-block;border-bottom:1px solid #918671;padding:10px 0;font-size:12px}.end-buy{background:#eeeee5;padding:32px;display:flex;align-items:center;justify-content:space-between;gap:25px;margin:20px 0 60px}.end-buy p{margin:0;font-size:13px}footer{border-top:1px solid #ddd8cb;padding:30px 36px;font-size:10px;color:#726b5f}.foot-inner{max-width:1088px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:25px}.foot-links{display:flex;gap:20px;flex-wrap:wrap}.footer-brand{font:23px Georgia,serif;margin-bottom:5px}.footer-home{display:block;color:inherit}.video-await{font-size:11px;background:#eeeee5;padding:10px 14px;color:#736e63;margin-top:12px}.for-you-list{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.for-you-card{border-top:1px solid #ddd8cb;padding-top:20px}.for-you-card h3{font-size:14px}.for-you-card p{font-size:12px}.guide{padding-bottom:40px}@media(max-width:760px){.head-inner{padding:14px 20px;gap:10px;flex-wrap:wrap}.brand small{display:none}.wordmark{font-size:26px}nav{order:3;width:100%;justify-content:space-between;gap:10px;font-size:11px}nav .buy-button{padding:7px 11px}.shell{padding:0 20px}.home-hero{grid-template-columns:1fr;gap:28px;padding:30px 0}.home-hero h1{font-size:32px;margin:15px 0}.lead{font-size:12px}.hero-actions{margin-top:22px}.hero-photo img,.hero-photo video{aspect-ratio:4/3}.route-grid{grid-template-columns:1fr;gap:12px}.route-card{padding:20px}.route-card p{margin:5px 0 14px}.route-section h2{font-size:24px}.home-bottom{align-items:flex-start;flex-direction:column}.page-heading{padding:20px 0}.page-heading h1{font-size:29px}.page-heading p{font-size:12px}.product-grid{grid-template-columns:1fr 1fr;gap:30px 16px}.product-label{font-size:17px}.product h3{font-size:11px}.product-desc{font-size:11px}.shop-grid,.steps,.find-us-grid,.for-you-list,.review-list{grid-template-columns:1fr}.shop-grid{gap:16px}.shop-card{padding:24px}.shop-card h2{font-size:26px}.steps{gap:10px;margin:35px 0}.steps h3{margin-bottom:5px}.end-buy{flex-direction:column;align-items:flex-start;padding:24px}.story-body{font-size:14px}.foot-inner{align-items:flex-start;flex-direction:column}.foot-links{gap:13px}.crumbs{padding-top:18px}.button{padding:12px 18px}.hero-photo{max-width:100%}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+/* Four clear editorial destinations */
+html{scroll-padding-top:150px}.photo-routes{display:grid;grid-template-columns:1fr 1fr;gap:28px}.photo-route{display:block;position:relative;overflow:hidden;background:#4d483f;min-height:260px;aspect-ratio:1.9}.photo-route img,.photo-route video{display:block;width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.photo-route:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.64),rgba(0,0,0,.24))}.photo-route-text{position:absolute;z-index:1;inset:0;padding:34px;display:flex;flex-direction:column;justify-content:center;color:white}.photo-route h3{font-size:24px;line-height:1.5;margin:0 0 12px}.photo-route p{font-size:12px;margin-bottom:22px}.photo-route span{font-size:11px}.photo-route:hover{opacity:.9}.theme-intro{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center;padding:0 0 50px}.theme-intro img{aspect-ratio:1.1}.choice-section{padding:35px 0 45px;border-top:1px solid #ddd8cb}.choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px}.choice-grid article{background:#f0eee6;padding:28px}.choice-grid p,.simple-note p{font-size:13px;color:#706b60}.simple-note{padding:15px 0 25px}.head-inner{max-width:1440px}nav{gap:18px;font-size:11px}.foot-links{max-width:800px}.product{scroll-margin-top:150px}@media(max-width:1100px){.head-inner{flex-wrap:wrap}nav{width:100%;justify-content:space-between;gap:12px;flex-wrap:wrap}}@media(max-width:760px){.photo-routes{grid-template-columns:1fr;gap:18px}.photo-route{min-height:210px;aspect-ratio:1.65}.photo-route-text{padding:24px}.photo-route h3{font-size:22px}.theme-intro{grid-template-columns:1fr;gap:25px;padding-bottom:30px}.theme-intro img{aspect-ratio:4/3}.theme-intro h2{font-size:26px}.choice-grid{grid-template-columns:1fr;gap:16px}.choice-grid article{padding:24px}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px 12px;font-size:10px;align-items:stretch}nav a{text-align:center;display:flex;align-items:center;justify-content:center;min-height:38px;line-height:1.5}nav .buy-button{padding:8px}.head-inner{padding:12px 20px}.home-hero{padding-top:24px}.photo-route p{font-size:11px}.simple-note h2{font-size:23px}}
+
+/* White page background; home starts with the four destinations. */
+body,header{background:#fff}.shell>.route-section:first-child{border-top:0;padding-top:36px}
+
+/* Type scale matched to the reference shop: 16px body, 14px labels/links, 24px section titles. */
+body{font-size:16px}
+nav{font-size:16px}
+.buy-button,nav .buy-button,.button{font-size:14px}
+.kicker,.label{font-size:14px;letter-spacing:.1em}
+.photo-route h3{font-size:24px;line-height:1.5}
+.photo-route p,.photo-route span{font-size:14px;line-height:1.7}
+.home-bottom p,.home-bottom a{font-size:14px}
+.page-heading p,.lead,.story-body,.product-desc,.shop-card p,.steps p,.choice-grid p,.simple-note p,.find-us-card p,.review-body{font-size:16px}
+.product h3,.product-link,.shop-note,.profile-role,.profile-bio,.find-us-card .note{font-size:14px}
+.foot-links,footer{font-size:12px}
+
+@media(max-width:760px){
+  body{font-size:16px}
+  nav{font-size:14px}
+  nav a{line-height:1.6}
+  nav .buy-button{font-size:14px}
+  .kicker,.label{font-size:13px}
+  .photo-route h3{font-size:24px}
+  .photo-route p,.photo-route span{font-size:14px;line-height:1.7}
+  .home-bottom p,.home-bottom a{font-size:14px}
+  .page-heading p,.lead,.story-body,.product-desc,.shop-card p,.steps p,.choice-grid p,.simple-note p,.find-us-card p,.review-body{font-size:16px}
+  .product h3,.product-link,.shop-note,.profile-role,.profile-bio,.find-us-card .note{font-size:14px}
+}
+
+
+/* Letterforms and spacing follow the reference shop navigation and image titles. */
+nav,.photo-route-text,.button,.buy-button{font-family:"Outfit","Zen Kaku Gothic New",sans-serif;letter-spacing:.05em}
+nav a{font-weight:400}
+nav a[aria-current=page],nav .buy-button{font-weight:700}
+.photo-route h3{font-family:"Outfit","Zen Kaku Gothic New",sans-serif;font-size:32px;font-weight:700;letter-spacing:.05em;line-height:1.35}
+.photo-route p,.photo-route span{font-weight:700;letter-spacing:.05em}
+@media(max-width:760px){.photo-route h3{font-size:24px;font-weight:700;letter-spacing:.05em}nav a{font-weight:700;letter-spacing:.05em}}
+
+/* Wide image panels: large title at the right, matching the supplied reference balance. */
+.photo-routes{grid-template-columns:1fr;gap:28px}
+.photo-route{min-height:0;aspect-ratio:2.5}
+.photo-route:after{background:linear-gradient(90deg,rgba(0,0,0,.08) 0%,rgba(0,0,0,.15) 42%,rgba(0,0,0,.72) 100%)}
+.photo-route-text{left:58%;right:5%;padding:4%;align-items:flex-start;text-align:left}
+.photo-route h3{font-size:clamp(48px,5vw,72px);font-weight:700;letter-spacing:.02em;line-height:1.05;margin:0 0 22px}
+.photo-route p{font-size:20px;line-height:1.5;margin:0;font-weight:700;letter-spacing:.05em}
+.photo-route span{display:none}
+
+@media(max-width:760px){
+  .photo-routes{gap:18px}
+  .photo-route{aspect-ratio:2.35;min-height:0}
+  .photo-route-text{left:53%;right:4%;padding:4%}
+  .photo-route h3{font-size:clamp(27px,8vw,38px);line-height:1.05;margin-bottom:12px}
+  .photo-route p{font-size:14px;line-height:1.5}
+}
+
+/* Home panels follow the supplied layout: nearly full-width, 2.4:1, with single-line titles. */
+.shell:has(> .route-section > .kicker:first-child){max-width:none;padding-inline:clamp(20px,1.35vw,28px)}
+.shell>.route-section:first-child{padding-top:24px}
+.photo-routes{gap:clamp(26px,3.7vw,76px)}
+.photo-route{aspect-ratio:2.4}
+.photo-route-text{left:62%;right:4%;padding:3%;width:auto}
+.photo-route:nth-child(even) .photo-route-text{left:15%;right:auto;width:81%}
+.photo-route:nth-child(2) .photo-route-text,.photo-route:nth-child(4) .photo-route-text{transform:translateX(-15mm)}
+.photo-route h3,.photo-route p{white-space:nowrap}
+.photo-route:nth-child(2) h3{font-size:clamp(26px,3.4vw,58px);font-weight:600}
+.photo-route:nth-child(2) video{transform:scale(1.38)}
+.photo-route:nth-child(2) p{transform:translateX(2px)}
+.photo-route:nth-child(3) .photo-route-text{left:54%;right:2%;transform:translateX(-1cm)}
+.photo-route:nth-child(3) h3{font-size:clamp(24px,2.9vw,48px);font-weight:600}
+.photo-route:nth-child(3) p{transform:translateX(8px)}
+.photo-route:nth-child(3) img{object-position:center 57%}
+.photo-route:nth-child(4) h3{font-size:clamp(22px,3vw,50px)}
+.photo-route:nth-child(4) img,.photo-route:nth-child(4) video{transform:scale(1.09)}
+
+@media(max-width:760px){
+  .shell:has(> .route-section > .kicker:first-child){padding-inline:20px}
+  .shell>.route-section:first-child{padding-top:20px}
+  .photo-routes{gap:26px}
+  .photo-route{aspect-ratio:2.4}
+  .photo-route-text{left:56%;right:3%;padding:3%}
+  .photo-route:nth-child(even) .photo-route-text{left:8%;right:auto;width:89%}
+  .photo-route:nth-child(3) .photo-route-text{left:43%;right:2%}
+  .photo-route h3{font-size:clamp(28px,7vw,38px)}
+  .photo-route:nth-child(2) h3{font-size:clamp(23px,5.7vw,31px)}
+  .photo-route:nth-child(3) h3{font-size:clamp(20px,4.8vw,27px)}
+  .photo-route:nth-child(4) h3{font-size:clamp(19px,4.7vw,26px)}
+  .photo-route p{font-size:clamp(11px,2.4vw,14px)}
+}
+
+/* Site-wide spacing measured from the reference: 1000px content and a 40px vertical rhythm. */
+.shell{max-width:1072px}
+.head-inner{max-width:1072px}
+.foot-inner{max-width:1000px}
+.shell:has(> .route-section > .kicker:first-child){max-width:1040px}
+.photo-routes{gap:40px}
+.page-heading{padding:40px 0}
+.home-bottom{padding:40px 0}
+.theme-intro{gap:40px;padding-bottom:40px}
+.choice-section{padding:40px 0}
+.products,.find-us-grid{padding-bottom:40px}
+.reviews{padding:40px 0}
+.end-buy{margin:40px 0}
+footer{padding-block:40px}
+
+@media(max-width:760px){
+  .shell,.shell:has(> .route-section > .kicker:first-child){padding-inline:20px}
+  .photo-routes{gap:40px}
+  .page-heading{padding:32px 0}
+  .home-bottom,.choice-section,.reviews{padding-block:32px}
+  .theme-intro,.products,.find-us-grid{padding-bottom:32px}
+  .end-buy{margin:32px 0}
+  footer{padding:32px 20px}
+}
+
+/* Final breathing room requested after visual review. */
+.shell,.head-inner{max-width:1032px}
+.foot-inner{max-width:960px}
+.shell:has(> .route-section > .kicker:first-child){max-width:1000px}
+.photo-routes{gap:48px}
+.page-heading{padding-block:44px}
+.home-bottom{padding-block:44px}
+
+@media(max-width:760px){
+  .shell,.shell:has(> .route-section > .kicker:first-child){padding-inline:24px}
+  .photo-routes{gap:44px}
+  .page-heading,.home-bottom{padding-block:36px}
+  footer{padding-inline:24px}
+}
+
+/* One more small spacing increase after the second visual review. */
+.shell,.head-inner{max-width:992px}
+.foot-inner{max-width:920px}
+.shell:has(> .route-section > .kicker:first-child){max-width:960px}
+.photo-routes{gap:52px}
+
+@media(max-width:760px){
+  .shell,.shell:has(> .route-section > .kicker:first-child){padding-inline:28px}
+  .photo-routes{gap:50px}
+  footer{padding-inline:28px}
+}
+
+/* Clear social destinations at the end of the home page. */
+.social-section{border-top:1px solid #ddd8cb;padding:52px 0 60px}
+.social-section h2{margin:8px 0 26px}
+.social-links{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.social-link{min-height:72px;border:1px solid #cfc9bc;padding:20px;display:flex;align-items:center;justify-content:space-between;font-size:17px;font-weight:600;letter-spacing:.04em;background:#fff}
+.social-link b{font-size:16px;font-weight:400}
+.social-link:hover{background:#f3f1eb;opacity:1}
+
+@media(max-width:760px){
+  .social-section{padding:42px 0 50px}
+  .social-section h2{font-size:24px;margin-bottom:22px}
+  .social-links{grid-template-columns:1fr 1fr;gap:10px}
+  .social-link{min-height:64px;padding:16px;font-size:15px}
+}
+
+/* Centered LINE call-to-action and compact social icons, following the supplied example. */
+.social-section{padding:82px 0 72px;text-align:center}
+.line-message h2{font-family:"Outfit","Zen Kaku Gothic New",sans-serif;font-size:clamp(22px,2.5vw,30px);font-weight:700;line-height:1.7;letter-spacing:.05em;margin:0}
+.line-message p{font-size:clamp(17px,2vw,22px);line-height:1.75;letter-spacing:.06em;margin:0}
+.line-message .line-benefit{font-size:clamp(20px,2.2vw,26px);font-weight:700;margin-top:4px}
+.line-cta{width:min(480px,80%);min-height:94px;margin:58px auto 0;border-radius:999px;background:#06c755;color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;letter-spacing:.04em}
+.line-cta:hover{background:#05b94e;opacity:1}
+.social-icons{display:flex;width:auto;justify-content:center;gap:28px;margin:96px auto 0}
+.social-icon-link{display:flex;align-items:center;justify-content:center;width:48px;height:48px;padding:0}
+.social-mark{position:relative;display:block;width:48px;height:48px;border-radius:11px}
+.social-image-mark img{display:block;width:100%;height:100%;object-fit:contain}
+.instagram-mark{background:radial-gradient(circle at 32% 100%,#ffd600 0 20%,#ff7a00 33%,#ff0169 58%,#d300c5 76%,#7638fa 100%)}
+.instagram-mark:before{content:"";position:absolute;inset:9px;border:3px solid #fff;border-radius:10px}
+.instagram-mark:after{content:"";position:absolute;left:19px;top:19px;width:8px;height:8px;border:2px solid #fff;border-radius:50%;box-shadow:10px -10px 0 -3px #fff}
+.tiktok-mark{background:#090909;color:#fff;font:bold 35px/48px Arial;text-align:center;text-shadow:-2px -1px #25f4ee,2px 1px #fe2c55}
+.note-mark{background:#fff;border:1px solid #e8e8e8;color:#050505;font:700 34px/46px Arial,sans-serif;text-align:center}
+.youtube-mark{background:#ff0033;border-radius:12px}
+.youtube-mark:after{content:"";position:absolute;left:19px;top:15px;border-left:15px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent}
+
+@media(max-width:760px){
+  .social-section{padding:66px 0 58px}
+  .line-message h2{font-size:22px}
+  .line-message p{font-size:17px}
+  .line-message .line-benefit{font-size:20px}
+  .line-cta{width:min(420px,92%);min-height:80px;margin-top:44px;font-size:21px}
+  .social-icons{gap:22px;margin-top:76px}
+  .social-icon-link,.social-mark{width:44px;height:44px}
+  .tiktok-mark{font-size:32px;line-height:44px}
+  .note-mark{font-size:31px;line-height:42px}
+  .youtube-mark:after{left:17px;top:13px}
+}
+
+/* Smaller scale matched to the reference LINE block. */
+.social-section{padding:56px 0 48px}
+.line-message h2{font-size:20px;line-height:1.65}
+.line-message p{font-size:16px;line-height:1.65}
+.line-message .line-benefit{font-size:19px;margin-top:2px}
+.line-cta{width:min(320px,70%);min-height:64px;margin-top:34px;font-size:18px}
+.social-icons{gap:20px;margin-top:58px}
+.social-icon-link,.social-mark{width:38px;height:38px}
+.social-mark{border-radius:8px}
+.instagram-mark:before{inset:6px;border-width:2px;border-radius:7px}
+.instagram-mark:after{left:13px;top:13px;width:6px;height:6px;border-width:1.5px;box-shadow:7px -7px 0 -2px #fff}
+.tiktok-mark{font-size:25px;line-height:34px}
+.note-mark{font-size:24px;line-height:32px}
+.youtube-mark{border-radius:8px}
+.youtube-mark:after{left:13px;top:10px;border-left-width:11px;border-top-width:7px;border-bottom-width:7px}
+
+@media(max-width:760px){
+  .social-section{padding:50px 0 44px}
+  .line-message h2{font-size:18px}
+  .line-message p{font-size:15px}
+  .line-message .line-benefit{font-size:18px}
+  .line-cta{width:min(300px,76%);min-height:60px;margin-top:30px;font-size:17px}
+  .social-icons{gap:18px;margin-top:52px}
+  .social-icon-link,.social-mark{width:32px;height:32px}
+  .tiktok-mark{font-size:23px;line-height:32px}
+  .note-mark{font-size:22px;line-height:30px}
+  .youtube-mark:after{left:12px;top:9px;border-left-width:10px;border-top-width:7px;border-bottom-width:7px}
+}
+
+/* Black typography throughout; the asd.coffee wordmarks keep their brown identity color. */
+body{color:#111}
+.kicker,.label,.lead,.photo-caption,.route-card p,.product-desc,.shop-note,.shop-card p,.steps p,.story-body,.profile-role,.profile-bio,.review-body,.review-name,.find-us-card p,.find-us-card .note,.choice-grid p,.simple-note p,.home-bottom p,.crumbs,footer{color:#111}
+nav a,.foot-links a,.btn,.product-link{color:#111}
+.wordmark{color:#685642}
+.footer-brand{color:#685642}
+.photo-route-text,.photo-route-text h3,.photo-route-text p,.button,.buy-button,.line-cta{color:#fff}
+.button.secondary{color:#111}
+.button,.buy-button{background:#000;border-color:#000;color:#fff}
+.button.secondary{background:transparent;border-color:#000;color:#000}
+nav a[aria-current=page]{border-bottom-color:#000}
+body,nav a:not(.buy-button),.kicker,.label,.lead,.home-bottom p,.crumbs,footer,.foot-links a{color:#000}
+
+/* A spacious centered masthead with five simple destinations. */
+header{position:static;border-bottom:0}
+.head-inner{display:flex;flex-direction:column;align-items:center;max-width:1040px;padding:54px 28px 40px;gap:54px}
+header .brand{text-align:center}
+header .wordmark{font-size:clamp(52px,7vw,88px);line-height:1.15;letter-spacing:-.035em}
+header .brand small{display:none}
+header nav{display:flex;order:initial;justify-content:center;align-items:center;width:100%;gap:clamp(22px,3vw,44px);flex-wrap:wrap;font-size:16px}
+header nav a{display:block;min-height:44px;padding:8px 0;color:#000;font-weight:700;line-height:1.75;white-space:nowrap;text-align:center}
+header nav a[aria-current=page]{border:0}
+header nav a:hover{text-decoration:underline;text-underline-offset:6px}
+@media(max-width:760px){
+  .head-inner{padding:36px 24px 26px;gap:30px}
+  header .wordmark{font-size:clamp(46px,10vw,68px)}
+  header nav{display:flex;gap:6px 24px;font-size:13px}
+  header nav a{min-height:40px;padding:8px 0}
+}
+
+/* Reference measured on 2026-09-23: 14px text, 240x48 button, 24px icons. */
+.social-section .line-message h2,.social-section .line-message p,.social-section .line-message .line-benefit{font-size:14px;line-height:28px;margin:0;letter-spacing:.05em}
+.social-section .line-cta{width:240px;max-width:100%;min-height:48px;height:48px;font-size:16px;margin-top:40px}
+.social-section .social-icons{gap:20px;margin-top:64px;flex-wrap:nowrap}
+.social-section .social-icon-link{width:24px;height:34px;min-height:34px;padding:0}
+.social-section .social-mark{width:24px;height:24px;border-radius:6px}
+.social-section .instagram-mark:before{inset:4px;border-width:2px;border-radius:5px}
+.social-section .instagram-mark:after{left:9px;top:9px;width:6px;height:6px;border-width:1.5px;box-shadow:5px -5px 0 -2px #fff}
+.social-section .tiktok-mark{font-size:19px;line-height:24px}
+.social-section .note-mark{font-size:19px;line-height:22px}
+.social-section .youtube-mark:after{left:9px;top:7px;border-left-width:8px;border-top-width:5px;border-bottom-width:5px}
+
+.social-section .line-message h2,.social-section .line-message p,.social-section .line-message .line-benefit{font-family:"Outfit","Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;font-weight:400}
+
+.photo-route-about img{object-position:center calc(42.5% + 2mm);filter:none}
+.photo-route-about:after,.photo-route:nth-child(2):after{background:linear-gradient(90deg,rgba(0,0,0,.08) 0%,rgba(0,0,0,.15) 42%,rgba(0,0,0,.72) 100%)}
+
+/* ABOUT: spacious alternating photo-and-story layout based on the supplied reference. */
+.about-page{max-width:1080px;padding-bottom:110px}
+.about-intro{text-align:center;padding:78px 0 88px}
+.about-intro .kicker{font-size:12px;letter-spacing:.18em;margin-bottom:22px}
+.about-intro h1{font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-size:24px;font-weight:400;line-height:2;letter-spacing:.14em;margin:0}
+.about-chapter{margin:0 0 116px}
+.about-chapter h2{text-align:center;font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-size:24px;font-weight:400;line-height:1.8;letter-spacing:.12em;margin:0 0 58px}
+.about-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:72px;align-items:center}
+.about-row-reverse .about-photo{order:2}
+.about-row-reverse .about-copy{order:1}
+.about-photo{margin:0;overflow:hidden;background:#eee}
+.about-photo img{width:100%;aspect-ratio:1/1;object-fit:cover}
+.about-chapter:nth-of-type(1) .about-photo img{object-position:center}
+.about-chapter:nth-of-type(2) .about-photo img{object-position:center}
+.about-chapter:nth-of-type(3) .about-photo img{object-position:center}
+.about-copy{font-size:14px;line-height:2.25;letter-spacing:.055em}
+.about-copy p{margin:0 0 26px}
+.about-copy-story{line-height:2.5}
+.about-copy-story p{margin-bottom:30px}
+.about-copy-origin{line-height:2.5}
+.about-copy-origin p{margin-bottom:30px}
+.about-copy-career{line-height:2.65}
+.about-copy-career p{margin-bottom:32px}
+.about-copy p:last-child{margin-bottom:0}
+.about-sign{text-align:right;padding-top:8px}
+.about-next-wrap{display:flex;justify-content:flex-end;padding-top:4px}
+.about-next{display:flex;align-items:center;justify-content:center;width:240px;height:48px;border-radius:999px;background:#000;color:#fff;font-size:14px;font-weight:700;letter-spacing:.06em}
+.about-next:hover{opacity:.78}
+
+@media(max-width:760px){
+  .about-page{padding-bottom:74px}
+  .about-intro{padding:48px 0 64px}
+  .about-intro h1{font-size:20px;line-height:1.8;letter-spacing:.09em}
+  .about-chapter{margin-bottom:82px}
+  .about-chapter h2{font-size:21px;line-height:1.8;letter-spacing:.08em;margin-bottom:34px}
+  .about-row{grid-template-columns:1fr;gap:34px}
+  .about-row-reverse .about-photo,.about-row-reverse .about-copy{order:initial}
+  .about-photo img{aspect-ratio:1/1}
+  .about-copy{font-size:14px;line-height:2.15;letter-spacing:.035em}
+  .about-copy p{margin-bottom:23px}
+  .about-copy-story{line-height:2.35}
+  .about-copy-story p{margin-bottom:26px}
+  .about-copy-origin{line-height:2.35}
+  .about-copy-origin p{margin-bottom:26px}
+  .about-copy-career{line-height:2.45}
+  .about-copy-career p{margin-bottom:28px}
+  .about-copy br{display:none}
+  .about-next-wrap{justify-content:center}
+  .about-next{width:220px}
+}
+
+/* Softer typography inspired by the supplied reference: light serif titles and calm body copy. */
+body{color:#30302d;font-weight:400;letter-spacing:.045em}
+h1,h2,.about-intro h1,.about-chapter h2{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-weight:300;color:#292927;letter-spacing:.12em}
+h3{font-weight:500}
+header nav a{font-weight:500;letter-spacing:.08em;color:#2d2d2a}
+header nav a[aria-current=page]{font-weight:500}
+.photo-route h3{font-weight:500;letter-spacing:.045em}
+.photo-route p,.photo-route span{font-weight:400;letter-spacing:.07em}
+.button,.buy-button,.about-next,.line-cta{font-weight:500;letter-spacing:.08em}
+.social-link{font-weight:500}
+.line-message h2,.line-message .line-benefit{font-weight:500}
+.about-copy{color:#343431;font-weight:400;letter-spacing:.07em}
+.lead,.page-heading p,.product-desc,.shop-card p,.steps p,.choice-grid p,.simple-note p,.find-us-card p,.review-body{color:#454541;font-weight:400;letter-spacing:.06em}
+.kicker,.label{font-weight:400;letter-spacing:.15em}
+
+/* はじめての方 */
+.first-message{max-width:650px;margin:10px auto 48px;padding:58px 60px;text-align:center;border-top:1px solid #ddd8cb;border-bottom:1px solid #ddd8cb}
+.first-message h2{margin:8px 0 34px;font-size:27px}
+.first-candle{font-size:22px;margin-bottom:12px}
+.first-copy{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-size:15px;line-height:2.4;letter-spacing:.08em;color:#343431}
+.first-copy p{margin-bottom:27px}
+.first-copy p:last-child{margin-bottom:0}
+.theme-intro .button{margin-top:12px}
+.first-mercari-buy{max-width:760px;margin-inline:auto}
+
+/* はじめての方：参考ページに合わせた写真と文章の流れ */
+.first-page{max-width:920px}
+.first-page-heading{text-align:center;padding:78px 0 88px}
+.first-page-heading .kicker{font-size:12px;letter-spacing:.18em;margin-bottom:22px}
+.first-page-heading h1{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-size:24px;font-weight:300;line-height:2;letter-spacing:.14em;margin:0 0 28px;color:#292927}
+.first-page-heading>p:last-child{font-family:inherit;font-size:14px;font-weight:400;line-height:2.5;letter-spacing:.07em;color:#343431}
+.first-guide-row{display:grid;grid-template-columns:1fr 1fr;column-gap:64px;row-gap:58px;align-items:center;margin-bottom:96px}
+.first-guide-row:not(.first-guide-reverse){transform:translateX(5mm)}
+.first-guide-title{grid-column:1/-1;width:100%;text-align:center;font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-size:24px;font-weight:300;line-height:1.8;letter-spacing:.12em;color:#292927;margin:0}
+.first-guide-row:not(.first-guide-reverse) .first-guide-title{transform:translateX(-5mm)}
+.first-guide-row>img{width:100%;aspect-ratio:1/1;object-fit:cover;filter:sepia(.14) saturate(.88) contrast(1.04) brightness(.96)}
+.first-guide-row>img[src*="first-coffee-cup"]{object-position:center 58%}
+.first-guide-row>img[src*="first-drip"]{object-fit:contain;background:#eee8df}
+.first-guide-row>img[src*="first-owner"]{object-position:center 42%}
+.first-guide-row>img[src*="first-coffee-table"]{object-position:center 42%}
+.first-guide-image{width:100%;aspect-ratio:1/1;overflow:hidden}
+.first-guide-image img{display:block;width:100%;height:100%;object-fit:cover;filter:sepia(.14) saturate(.88) contrast(1.04) brightness(.96)}
+.second-coffee-image img{object-position:center;transform:none}
+.first-guide-copy{font-family:inherit;font-size:14px;font-weight:400;line-height:2.5;letter-spacing:.07em;color:#343431}
+.first-guide-copy h2{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-size:24px;font-weight:300;line-height:1.8;letter-spacing:.12em;color:#292927;margin:0 0 30px}
+.first-guide-copy p{font-size:14px;margin-bottom:30px}
+.first-shop-row{margin-bottom:88px}
+.first-shop-copy .kicker{font-family:"Outfit","Zen Kaku Gothic New",sans-serif;margin-bottom:14px}
+.first-shop-copy .button{margin-top:8px}
+.first-market-links{border-top:1px solid #ddd8cb;padding:72px 0 88px;margin-top:-8px}
+.first-market-intro{text-align:center;margin-bottom:42px}
+.first-market-intro h2{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-size:24px;font-weight:300;line-height:1.8;letter-spacing:.12em;color:#292927;margin:12px 0 0}
+.first-market-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.first-market-grid article{border:1px solid #ddd8cb;padding:34px;display:flex;flex-direction:column;align-items:flex-start}
+.first-market-grid h3{font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;font-size:19px;font-weight:300;line-height:1.8;letter-spacing:.08em;margin:10px 0 16px}
+.first-market-grid article>p:not(.kicker){font-size:14px;line-height:2.2;letter-spacing:.055em;color:#343431;margin-bottom:26px}
+.first-market-grid .button{margin-top:auto;width:100%;padding-inline:16px;gap:10px}
+.market-label{display:flex;align-items:center;gap:8px;min-height:14px;font-size:14px;line-height:1;letter-spacing:.14em}
+.market-icon{display:inline-flex;width:14px;height:14px;flex:0 0 14px;overflow:hidden;border-radius:3px;background:#fff}
+.market-icon img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.mercari-icon img{transform:scale(1.35)}
+.minne-icon img{transform:scale(1.04)}
+.instagram-icon img{transform:scale(1.08)}
+.instagram-icon{transform:translate(.5mm,-.5mm)}
+.first-feature{max-width:650px;margin:0 auto 96px;text-align:center}
+.first-feature h2{font-size:26px;margin:0 0 34px}
+.first-feature img{width:100%;aspect-ratio:1;object-fit:cover}
+.first-guide-reverse .first-guide-copy{order:1;padding-left:0;width:max-content;justify-self:end;transform:translateX(-1.5mm)}
+.gift-intro-copy{transform:none}
+.gift-welcome-line{display:inline-block}
+.gift-detail-copy{transform:none}
+.first-guide-reverse>img,.first-guide-reverse .first-guide-image{order:2;transform:translate(-1.5mm,-2mm)}
+.first-guide-reverse{gap:64px}
+.gift-page .first-guide-row{transform:translateX(5mm)}
+.gift-page .first-guide-reverse .first-guide-title{transform:translateX(-5mm)}
+.gift-page .first-guide-reverse .first-guide-copy{transform:none}
+.gift-page .first-guide-reverse .first-guide-image{transform:translateY(-2mm)}
+.gift-page .gift-samples-image img,.gift-page .gift-photo-set img{transform:scale(1.05)}
+.metime-page .metime-photo img{filter:sepia(.05) saturate(1.08) contrast(1.09) brightness(1.04);transform:scale(1.035)}
+.metime-page .metime-product-photo img{filter:sepia(.08) saturate(.92) contrast(1.12) brightness(.96)}
+.metime-page .metime-roasting-photo img{object-position:center 30%;filter:sepia(.06) saturate(1.02) contrast(1.1) brightness(.94)}
+.stores-icon{align-items:center;justify-content:center;background:#292927;color:#fff;font-family:"Outfit","Zen Kaku Gothic New",sans-serif;font-size:11px;font-weight:600;line-height:1}
+.first-shop-cta{text-align:center;border-top:1px solid #ddd8cb;padding:72px 20px 88px}
+.first-shop-cta h2{font-size:26px;margin:14px 0 34px}
+.first-shop-cta .button{min-width:280px}
+
+@media(max-width:760px){
+  header nav a{font-weight:500;letter-spacing:.06em}
+  .photo-route h3{font-weight:500}
+  .first-message{margin:6px auto 32px;padding:40px 12px}
+  .first-message h2{font-size:23px;margin-bottom:28px}
+  .first-copy{font-size:14px;line-height:2.3;letter-spacing:.05em}
+  .first-page-heading{padding:48px 0 64px}
+  .first-page-heading h1{font-size:20px;line-height:1.8;letter-spacing:.09em;margin-bottom:22px}
+  .first-page-heading>p:last-child{font-size:14px;line-height:2.35;letter-spacing:.035em}
+  .first-guide-row{grid-template-columns:1fr;gap:30px;margin-bottom:70px}
+  .first-guide-row:not(.first-guide-reverse){transform:none}
+  .first-guide-title{font-size:21px;line-height:1.8;letter-spacing:.08em;margin-bottom:4px}
+  .first-guide-row:not(.first-guide-reverse) .first-guide-title{transform:none}
+  .first-guide-row>img{aspect-ratio:1/1}
+  .first-guide-copy{font-size:14px;line-height:2.35;letter-spacing:.035em}
+  .first-guide-copy h2{font-size:21px;line-height:1.8;letter-spacing:.08em;margin-bottom:26px}
+  .first-guide-copy p{font-size:14px;margin-bottom:26px}
+  .first-feature{margin-bottom:70px}
+  .first-feature h2{font-size:23px;margin-bottom:26px}
+  .first-guide-reverse .first-guide-title{order:0}
+  .first-guide-reverse>img,.first-guide-reverse .first-guide-image{order:1}
+  .first-guide-reverse .first-guide-copy{order:2}
+  .first-guide-reverse .first-guide-copy{width:auto;justify-self:stretch;transform:none}
+  .first-guide-reverse>img,.first-guide-reverse .first-guide-image{transform:none}
+  .first-guide-reverse .first-guide-copy{padding-left:0}
+  .gift-page .first-guide-row{transform:none}
+  .gift-page .first-guide-reverse .first-guide-title{transform:none}
+  .first-guide-reverse{gap:22px}
+  .first-market-links{padding:54px 0 68px;margin-top:0}
+  .first-market-intro{margin-bottom:30px}
+  .first-market-intro h2{font-size:21px;letter-spacing:.08em}
+  .first-market-grid{grid-template-columns:1fr;gap:16px}
+  .first-market-grid article{padding:26px 22px}
+  .first-market-grid h3{font-size:18px}
+  .first-shop-cta{padding:54px 10px 68px}
+  .first-shop-cta h2{font-size:23px}
+  .first-shop-cta .button{min-width:0;width:100%}
+}
+/* 商品一覧：3つの購入リンクを同じ高さに揃える */
+.product{display:flex;flex-direction:column}
+.product-link{margin-top:auto}
+.products + .end-buy{margin-top:calc(20px - .5cm)}
+/* 購入先ページ：3ステップ案内を1.5cm上へ */
+.page-heading + .steps{margin-top:calc(50px - 1.5cm);margin-bottom:calc(50px - 1cm)}
+
+/* 出店・SNS：各案内の文字と余白を読みやすく */
+.find-us-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:64px;row-gap:56px}
+.find-us-card{padding:32px 0}
+.find-us-card .label{margin-bottom:20px}
+.find-us-card .visit-label{display:flex;align-items:center;gap:8px;min-height:14px;font-size:14px;line-height:1;letter-spacing:.14em}
+.visit-icon{position:relative;display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;flex:0 0 14px;overflow:hidden;border-radius:3px;background:#fff}
+.visit-icon img{display:block;width:100%;height:100%;object-fit:contain}
+.visit-popup-icon{width:17px;height:17px;flex-basis:17px;background:transparent}
+.visit-popup-icon img{width:100%;height:100%;object-fit:contain}
+.visit-note-icon{border:1px solid #dedede;color:#111;font:700 11px/1 Arial,sans-serif;text-transform:none}
+.visit-line-icon{background:#06c755;color:#fff;font:700 4px/1 Arial,sans-serif;letter-spacing:0;text-transform:none}
+.visit-youtube-icon{background:#ff0033}
+.visit-youtube-icon:after{content:"";border-left:6px solid #fff;border-top:4px solid transparent;border-bottom:4px solid transparent;margin-left:1px}
+.find-us-card h3{margin:0 0 24px;line-height:1.7}
+.find-us-card>p:not(.label):not(.note){line-height:2.15;margin-bottom:26px}
+.find-us-card .note{line-height:1.9;margin-bottom:14px}
+.find-us-card .btn{margin-top:10px}
+
+@media(max-width:760px){
+  .find-us-grid{grid-template-columns:1fr;row-gap:38px}
+  .find-us-card{padding:28px 0}
+  .find-us-card h3{margin-bottom:20px}
+  .find-us-card>p:not(.label):not(.note){line-height:2.05;margin-bottom:22px}
+}
+
+/* 全ページ共通：画面をゆっくり歩き、ときどき話すハマー */
+.hummer-companion{--hummer-x:calc(100vw - 72px);--hummer-y:calc(100vh - 72px);position:fixed;left:0;top:0;z-index:20;width:60px;height:60px;pointer-events:auto;touch-action:none;user-select:none;cursor:grab;opacity:0;transform:translate3d(var(--hummer-x),var(--hummer-y),0);transition:transform 60s cubic-bezier(.42,0,.22,1),opacity .6s ease;will-change:transform}
+.hummer-companion.is-ready{opacity:1}
+.hummer-companion.is-dragging{transition:none!important;cursor:grabbing}
+.hummer-float{width:100%;height:100%;animation:hummer-bob 9s ease-in-out infinite;filter:none}
+.hummer-float img{width:100%;height:100%;object-fit:contain;transform:scaleX(1);transition:transform .8s ease}
+.hummer-companion.is-flipped .hummer-float img{transform:scaleX(-1)}
+.hummer-bubble{position:absolute;left:50%;bottom:calc(100% + 9px);width:max-content;max-width:190px;padding:7px 11px 8px;border:2px solid #756856;border-radius:48% 52% 46% 54%/54% 45% 55% 46%;background:rgba(255,253,246,.98);box-shadow:2px 3px 0 rgba(80,67,50,.13);color:#302b25;font-family:"Yomogi","Klee One","Tsukushi A Round Gothic","Hiragino Maru Gothic ProN",cursive;font-size:13px;font-weight:400;line-height:1.5;letter-spacing:.02em;text-align:center;white-space:pre-line;overflow-wrap:anywhere;opacity:0;transform:translate(-50%,7px) scale(.96) rotate(-1deg);transform-origin:50% 100%;transition:opacity .35s ease,transform .35s ease}
+.hummer-bubble:before{content:"";position:absolute;inset:-4px -3px -3px -4px;border:1px solid rgba(117,104,86,.5);border-radius:53% 47% 56% 44%/46% 57% 43% 54%;transform:rotate(1.6deg)}
+.hummer-bubble:after{content:"";position:absolute;left:50%;top:100%;width:9px;height:9px;border-right:2px solid #756856;border-bottom:2px solid #756856;background:rgba(255,253,246,.98);transform:translate(-50%,-5px) rotate(45deg)}
+.hummer-companion.is-speaking .hummer-bubble{opacity:1;transform:translate(-50%,0) scale(1) rotate(-1deg)}
+.hummer-companion.bubble-to-right .hummer-bubble{left:0;transform:translate(0,7px) scale(.96) rotate(-1deg);transform-origin:18px 100%}
+.hummer-companion.bubble-to-right.is-speaking .hummer-bubble{transform:translate(0,0) scale(1) rotate(-1deg)}
+.hummer-companion.bubble-to-right .hummer-bubble:after{left:18px}
+.hummer-companion.bubble-to-left .hummer-bubble{left:auto;right:0;transform:translate(0,7px) scale(.96) rotate(-1deg);transform-origin:calc(100% - 18px) 100%}
+.hummer-companion.bubble-to-left.is-speaking .hummer-bubble{transform:translate(0,0) scale(1) rotate(-1deg)}
+.hummer-companion.bubble-to-left .hummer-bubble:after{left:auto;right:13px;transform:translate(0,-5px) rotate(45deg)}
+@keyframes hummer-bob{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-6px) rotate(1deg)}}
+
+@media(max-width:760px){
+  .hummer-companion{width:50px;height:50px}
+  .hummer-bubble{max-width:170px;padding:7px 9px;font-size:12px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .hummer-companion{transition:opacity .3s ease}
+  .hummer-float{animation:none}
+}
+
+/* Mobile panels: keep copy inside each image without desktop print-unit offsets. */
+@media(max-width:760px){
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  .photo-route .photo-route-text,
+  .photo-route:nth-child(even) .photo-route-text,
+  .photo-route:nth-child(3) .photo-route-text{
+    inset:0 5%;width:auto;padding:0;transform:none;
+  }
+  .photo-route:nth-child(odd) .photo-route-text{align-items:flex-end;text-align:right}
+  .photo-route:nth-child(even) .photo-route-text{align-items:flex-start;text-align:left}
+  .photo-route h3,.photo-route p{max-width:100%;white-space:normal;overflow-wrap:anywhere;transform:none!important}
+  .photo-route h3{line-height:1.35;margin-bottom:8px}
+  .photo-route:nth-child(4) h3{font-size:clamp(17px,4.4vw,26px)}
+  .photo-route p{font-size:clamp(10px,2.6vw,14px);line-height:1.6}
+}
+
+/* Requested mobile layout and explicit copy breaks. */
+.mobile-break{display:none}
+@media(max-width:760px){
+  .mobile-break{display:block}
+  .hummer-companion{width:50px;height:50px}
+  header nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px 12px;max-width:360px;margin-inline:auto}
+  header nav a{grid-column:span 2}
+  header nav a:nth-child(4){grid-column:2 / span 2}
+  header nav a:nth-child(5){grid-column:4 / span 2}
+  .home-bottom>.button{align-self:flex-end}
+  .gift-page .first-guide-reverse .gift-photo-set{transform:none;margin-inline:auto}
+  .gift-page .gift-photo-set img{transform:none;object-fit:contain;object-position:center}
+  .gift-detail-copy{transform:none}
+  .mobile-intro-line{white-space:nowrap;font-size:clamp(12px,3.5vw,14px);letter-spacing:0}
+}
+
+/* Mobile refinements: closer navigation and lighter visit link. */
+@media(max-width:760px){
+  header nav{width:calc(50% + 80px);max-width:260px;column-gap:6px}
+  .home-bottom>.button.secondary{font-family:inherit;font-weight:400;letter-spacing:normal;color:#000;border:0.5px solid #777}
+  .gift-page .gift-photo-set{aspect-ratio:1/1}
+  .gift-page .gift-photo-set img{width:100%;height:100%;object-fit:cover;object-position:center}
+}
+
+/* Mobile gift panel: move the heading and description left together. */
+@media(max-width:760px){
+  .photo-route:nth-child(3) .photo-route-text{transform:translateX(-1cm)}
+}
+
+/* Mobile home captions: requested horizontal offsets for both lines. */
+@media(max-width:760px){
+  .photo-route:nth-child(1) .photo-route-text{transform:translateX(-1cm)}
+  .photo-route:nth-child(2) .photo-route-text,
+  .photo-route:nth-child(4) .photo-route-text{transform:translateX(1cm)}
+}
