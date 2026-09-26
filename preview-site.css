@@ -544,9 +544,9 @@ header nav a[aria-current=page]{font-weight:500}
   .gift-page .gift-photo-set img{width:100%;height:100%;object-fit:cover;object-position:center}
 }
 
-/* Mobile gift panel: move the heading and description left together. */
+/* Mobile gift panel: keep the full heading safely inside narrow screens. */
 @media(max-width:760px){
-  .photo-route:nth-child(3) .photo-route-text{transform:translateX(-1cm)}
+  .photo-route:nth-child(3) .photo-route-text{transform:none}
 }
 
 /* Mobile home captions: requested horizontal offsets for both lines. */
