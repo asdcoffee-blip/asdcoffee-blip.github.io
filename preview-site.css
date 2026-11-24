@@ -555,3 +555,15 @@ header nav a[aria-current=page]{font-weight:500}
   .photo-route:nth-child(2) .photo-route-text,
   .photo-route:nth-child(4) .photo-route-text{transform:translateX(1cm)}
 }
+
+/* HOME: embedded STORES product button. */
+.stores-product-section{padding:0 0 52px;text-align:center}
+.stores-product-section .kicker{margin-bottom:8px}
+.stores-product-section h2{margin:0 0 22px;font-family:inherit;font-size:20px;letter-spacing:.08em}
+.stores-product-embed{display:flex;justify-content:center;width:100%;min-height:44px;overflow-x:auto;overflow-y:hidden}
+.stores-product-embed .storesjp-button{max-width:100%}
+@media(max-width:760px){
+  .stores-product-section{padding-bottom:36px}
+  .stores-product-section h2{font-size:18px;margin-bottom:16px}
+  .stores-product-embed{min-height:44px;justify-content:center}
+}
