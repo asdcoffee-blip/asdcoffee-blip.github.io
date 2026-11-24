@@ -565,3 +565,13 @@ header nav a[aria-current=page]{font-weight:500}
   .stores-product-section{padding:0 0 28px}
   .stores-product-label{font-size:10px;margin-bottom:8px}
 }
+
+/* Site-wide LINE coupon announcement. */
+.line-coupon-bar{display:flex;align-items:center;justify-content:center;gap:12px;min-height:42px;padding:8px 20px;background:#5ac866;color:#fff;font-size:12px;line-height:1.4;letter-spacing:.08em;text-align:center}
+.line-coupon-bar strong{font-size:14px;font-weight:600;letter-spacing:.06em}
+.line-coupon-bar:hover{opacity:.9}
+.line-coupon-bar:focus-visible{outline:3px solid #302b25;outline-offset:-3px}
+@media(max-width:760px){
+  .line-coupon-bar{gap:7px;min-height:38px;padding:7px 10px;font-size:10px;letter-spacing:.04em}
+  .line-coupon-bar strong{font-size:12px;letter-spacing:.03em}
+}
